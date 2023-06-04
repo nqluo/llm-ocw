@@ -18,3 +18,5 @@ Here are the steps: GitHub account settings -> "Developer settings" -> "Personal
 2. In your Codespace, set the `GITHUB_TOKEN` environment variable to the value of the personal access token. Add the "export GITHUB_TOKEN=***********" to the end of the `~/.bashrc` file. 
 The `.bashrc` file is not lost when you restart your Codespace. The `.bashrc` file is a shell script that is executed every time you start a new terminal session. It is stored in your home directory, which is persistent across restarts of your Codespace.
 By adding the `export` command to your `.bashrc` file, you ensure that the `GITHUB_TOKEN` environment variable is set correctly every time you start a new terminal session in your Codespace.
+
+## How to remove unintentional leakage information from file / history
