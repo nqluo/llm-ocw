@@ -25,6 +25,8 @@ GitHub Docs: [Removing sensitive data from a repository](https://docs.github.com
 
 Git git-filter-branch - [Rewrite branches](https://git-scm.com/docs/git-filter-branch)
 
+[BFG Repo-Cleaner](https://rtyley.github.io/bfg-repo-cleaner/)
+
 TO WRITE THE HOWTO
 
 Case 1: Sensitive information appears in the latest commit.
