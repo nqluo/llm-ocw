@@ -23,7 +23,6 @@ OPENAI_API_TYPE = azure
 OPENAI_API_BASE = https://your-endpoint.openai.azure.com/
 OPENAI_API_VERSION = yyyy-mm-dd-xyz
 OPENAI_API_KEY = xyz
-OPENAI_DEPLOYMENT_ID = your-deployment-id
 ```
 Then load the `.env` parameters in the code:
 ```python
@@ -119,7 +118,7 @@ def get_completion(prompt):
         ]
 
     response = openai.ChatCompletion.create(
-        deployment_id=openai_deployment_id,
+        deployment_id="gpt-35-turbo",
         messages = messages,
         temperature=0.7,
         max_tokens=800,
